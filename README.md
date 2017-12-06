@@ -23,6 +23,10 @@ $ ./iota_seed_generator
 Generated seed:                                                                                                                                                                                                     
 DS9TCFWYE9J9FPOHCDZS9RHJDGXNKWDIVPPWQUWERSKUDNXTDKZSXQWCO9PW9KCTQBMCTYURKQGABHFNE
 
+## Problems:
+Q: The generator hangs after running it a couple of times.
+A: You have run out of buffered entropy, this is a good thing, as you do not want to use weak entropy sources. Give it some time and use the machine, this will eventually generate new entropy and your seed generation will finish.
+
 ## Donate
 If you find this software useful, please consider donating some iota: IQ9KVFAXMNOUGQLVISTQUVHZUZFGBSCQRVKFBBUEGTTMHQQXWHBSUSEHJNLDELFXVBJWHJTSLTTCFSLHBDRCYWWUYZ
 
