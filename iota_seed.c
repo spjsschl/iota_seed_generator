@@ -79,7 +79,7 @@ main(int argc, char **argv)
 	for (i = 0; i < 81; i++) {
 		res[i] = chars[rand[i] % 27];
 	}
-	res[82] = '\0';
+	res[81] = '\0';
 	printf("Generated seed:\n");
 	printf("%s\n", res);
 	exit(EXIT_SUCCESS);
